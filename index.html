@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
+    <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"> -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+   
+    <!-- <script src="main.js"></script> -->
+    <title>Furniture</title>
+</head>
+<body id="home">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#home"> <img src="img/bootstrap-logo.svg" width="35" height="30" alt="Logo" class="d-inline-block align-text-bottom"> Furniture Ture</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-end" id="mainNav">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="#home"><i class="bi bi-house"></i> Home</a>
+                        <a class="page-scroll nav-link" href="#services"><i class="bi bi-tools"></i> Services</a>
+                        <a class="page-scroll nav-link" href="#projects"><i class="bi bi-briefcase"></i> Projects</a>
+                        <a class="page-scroll nav-link" href="#kontak"><i class="bi bi-envelope"></i> Contact Us</a>
+                    </div>
+                </div>
+            </div>
+          </nav>
+     
+    </header>
+    <div class="container-fluid px-0">
+        <div id="mainSlider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <!--   <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="3" aria-label="Slide 4"></button> -->
+            </div>
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                    <div class="overlay"></div>
+                    <img src="img/baner1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h1 class="display-2 text-uppercase fw-bold">Interior & Eksterior</h1>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet rem sapiente provident assumenda facere odio id corrupti illum ipsum numquam quod, dicta itaque consectetur nemo laudantium asperiores non dolor perferendis? </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="overlay"></div>
+                    <img src="img/baner2.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h1 class="display-3 text-uppercase fw-bold">Request Custom Building</h1>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet rem sapiente provident assumenda facere odio id corrupti illum ipsum numquam quod, dicta itaque consectetur nemo laudantium asperiores non dolor perferendis? </p>
+                    </div>
+                </div>
+               <!--  <div class="carousel-item">
+                    <div class="overlay"></div>
+                    <img src="img/slide-3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h1 class="display-1 text-uppercase fw-bold">Mobile Apps</h1>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet rem sapiente provident assumenda facere odio id corrupti illum ipsum numquam quod, dicta itaque consectetur nemo laudantium asperiores non dolor perferendis? </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="overlay"></div>
+                    <img src="img/slide-4.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h1 class="display-1 text-uppercase fw-bold">Ran on Top</h1>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet rem sapiente provident assumenda facere odio id corrupti illum ipsum numquam quod, dicta itaque consectetur nemo laudantium asperiores non dolor perferendis? </p>
+                    </div> -->
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mainSlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div><!--// Main Slider-->
+    </div><!-- // Slider Container -->
+
+    <div class="container pt-1 mt-5 mb-5 mx-auto" id="services" >
+        <div class="services-text-row row text-center">
+            <div class="services-title-text">
+                <h2 class="text-uppercase fw-bold display-5 mb-4" data-aos="fade-up" data-aos-duration="500"  data-aos-offset="150">Our Services</h2>
+                <p data-aos="zoom-in-down" data-aos-delay="150" data-aos-offset="200" data-aos-duration="1500">Lorem ipsum dolor sit amet consectetur adipisicing elit. A maxime excepturi vitae consequatur mollitia quia id soluta reprehenderit aspernatur quis voluptate saepe placeat, dicta expedita tempora optio. Ipsum, fugit cumque.</p>
+            </div>
+        </div>
+        <div class="services-boxes-row row text-center mt-5 mb-4">
+            <div class="col-12 col-sm-6 col-lg-4 service-col" data-aos="fade-right" data-aos-delay="150" data-aos-duration="1000" data-aos-offset="300"> 
+                <div class="service-col-inner" >
+                    <img src="img/interior.png" alt="Service 1">
+                    <h4>Interior</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 service-col"  data-aos="zoom-in" data-aos-delay="250" data-aos-duration="2000" data-aos-offset="300">
+                <div class="service-col-inner">
+                    <img src="img/esterior.png" alt="Service 1">
+                    <h4>Eksterior</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 service-col" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1500" data-aos-offset="300">
+                <div class="service-col-inner">
+                    <img src="img/custom.png" alt="Service 1">
+                    <h4>Custom Building</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <!-- <div class="col-12 col-sm-6 col-lg-3 service-col">
+                <div class="service-col-inner">
+                    <img src="img/icon-4.png" alt="Service 1">
+                    <h4>S.E.O</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div> -->
+        </div>
+    </div><!-- // Services Section -->
+
+    <div id="projects" class="container pt-1 mt-5 mb-5">
+        <div class="projects-text-row row text-center">
+            <div class="section-title-text">
+                <h2 class="text-uppercase fw-bold display-5 mb-4" data-aos="fade-up" data-aos-duration="500"  data-aos-offset="150">Our Projects</h2>
+                <p data-aos="zoom-in-down" data-aos-delay="150" data-aos-offset="200" data-aos-duration="1500">Lorem ipsum dolor sit amet consectetur adipisicing elit. A maxime excepturi vitae consequatur mollitia quia id soluta reprehenderit aspernatur quis voluptate saepe placeat, dicta expedita tempora optio. Ipsum, fugit cumque.</p>
+            </div>
+        </div>
+        <div class="projects-container row mt-3 mb-5">
+            <ul class="nav nav-pills justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="javascript:" data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab" aria-controls="all-tab" aria-selected="true">All Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:" data-bs-toggle="tab" data-bs-target="#webdesign" type="button" role="tab" aria-controls="webdesign-tab" aria-selected="false">Interior</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:" data-bs-toggle="tab" data-bs-target="#branding" type="button" role="tab" aria-controls="all-tab" aria-selected="false">Eksterior</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:" data-bs-toggle="tab" data-bs-target="#mobile" type="button" role="tab" aria-controls="mobile-tab" aria-selected="false">Custom Bulding</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="javascript:" data-bs-toggle="tab" data-bs-target="#seo" type="button" role="tab" aria-controls="seo-tab" aria-selected="false">S.E.O</a>
+                </li> -->
+            </ul>
+            <div class="tab-content mt-5">
+                <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+                    <div class="row projects-gallery g-3">
+                        <div class="project-thumbnail col-12 col-sm-6 col-md-4" data-aos="flip-left" data-aos-delay="100">
+                            <img src="img/projek1.jpg" alt="Project 1" class="img-fluid rounded">
+                        </div>
+                        <div class="project-thumbnail col-12 col-sm-6 col-md-4" data-aos="flip-left" data-aos-delay="150">
+                            <img src="img/projek2.jpg" alt="Project 1" class="img-fluid rounded">
+                        </div>
+                        <div class="project-thumbnail col-12 col-sm-6 col-md-4" data-aos="flip-left" data-aos-delay="200">
+                            <img src="img/projek3.jpg" alt="Project 1" class="img-fluid rounded">
+                        </div>
+                        <div class="project-thumbnail col-12 col-sm-6 col-md-4" data-aos="flip-left" data-aos-delay="250">
+                            <img src="img/project-4.jpg" alt="Project 1" class="img-fluid rounded">
+                        </div>
+                        <div class="project-thumbnail col-12 col-sm-6 col-md-4" data-aos="flip-left" data-aos-delay="300">
+                            <img src="img/project-5.jpg" alt="Project 1" class="img-fluid rounded">
+                        </div>
+                        <div class="project-thumbnail col-12 col-sm-6 col-md-4" data-aos="flip-left" data-aos-delay="350">
+                            <img src="img/project-6.jpg" alt="Project 1" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="webdesign" role="tabpanel" aria-labelledby="webdesign-tab">
+                    <div class="row projects-gallery g-3">
+                        <div class="project-thumbnail col-12 col-sm-6 col-md-4" data-aos="flip-left" data-aos-delay="100">
+                            <img src="img/projek1.jpg" alt="Project 1" class="img-fluid rounded">
+                        </div>
+                        <div class="project-thumbnail col-12 col-sm-6 col-md-4" data-aos="flip-left" data-aos-delay="150">
+                            <img src="img/project-2.jpg" alt="Project 1" class="img-fluid rounded">
+                        </div>
+                        <div class="project-thumbnail col-12 col-sm-6 col-md-4" data-aos="flip-left" data-aos-delay="200">
+                            <img src="img/project-3.jpg" alt="Project 1" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="branding" role="tabpanel" aria-labelledby="branding-tab">
+                    <div class="row projects-gallery g-3">
+                        <div class="project-thumbnail col-12 col-sm-6 col-md-4" data-aos="flip-left" data-aos-delay="100">
+                            <img src="img/projek3.jpg" alt="Project 1" class="img-fluid rounded">
+                        </div>
+                        <div class="project-thumbnail col-12 col-sm-6 col-md-4" data-aos="flip-left" data-aos-delay="150">
+                            <img src="img/project-5.jpg" alt="Project 1" class="img-fluid rounded">
+                        </div>
+                        <div class="project-thumbnail col-12 col-sm-6 col-md-4" data-aos="flip-left" data-aos-delay="200">
+                            <img src="img/project-6.jpg" alt="Project 1" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="mobile" role="tabpanel" aria-labelledby="mobile-tab">
+                    <div class="row projects-gallery g-3">
+                        <div class="project-thumbnail col-12 col-sm-6 col-md-4" data-aos="flip-left" data-aos-delay="100">
+                            <img src="img/projek2.jpg" alt="Project 1" class="img-fluid rounded">
+                        </div>
+                        <div class="project-thumbnail col-12 col-sm-6 col-md-4" data-aos="flip-left" data-aos-delay="150">
+                            <img src="img/project-4.jpg" alt="Project 1" class="img-fluid rounded">
+                        </div>
+                        <div class="project-thumbnail col-12 col-sm-6 col-md-4" data-aos="flip-left" data-aos-delay="200">
+                            <img src="img/project-5.jpg" alt="Project 1" class="img-fluid rounded">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="seo" role="tabpanel" aria-labelledby="seo-tab">
+                    <div class="row projects-gallery g-3">
+                        <div class="project-thumbnail col-12 col-sm-6 col-md-4">
+                            <img src="img/project-1.jpg" alt="Project 1" class="img-fluid rounded">
+                        </div>
+                        <div class="project-thumbnail col-12 col-sm-6 col-md-4">
+                            <img src="img/project-2.jpg" alt="Project 1" class="img-fluid rounded">
+                        </div>
+                        <div class="project-thumbnail col-12 col-sm-6 col-md-4">
+                            <img src="img/project-3.jpg" alt="Project 1" class="img-fluid rounded">
+                        </div>
+                        <div class="project-thumbnail col-12 col-sm-6 col-md-4">
+                            <img src="img/project-4.jpg" alt="Project 1" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- // kontak kami -->
+<div class="container-fluid pt-1 pb-5 kontak" id="kontak">
+    <div class="container">
+        <h2 class="text-uppercase fw-bold display-5 mb-4 text-center" data-aos="fade-up" data-aos-duration="500"  data-aos-offset="150">Contact Us</h2>
+        <p class="text-center" data-aos="zoom-in" data-aos-delay="150" data-aos-offset="200" data-aos-duration="1500">lorem bla bla bla bla</p>
+        <div class="row pb-3" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="400">
+            <div class="col-md-6">
+                <input class="form-control form-control-lg mb-3" type="text" placeholder="Nama" name="nama">
+                <input class="form-control form-control-lg mb-3" type="text" placeholder="Email" name="email">
+                <input class="form-control form-control-lg mb-3" type="text" placeholder="No. Phone" name="nohp">
+            </div>
+             <div class="col-md-6">
+                 <textarea class="form-control form-control-lg" rows="5"></textarea>
+             </div>
+        </div>
+        <div class="col-md-3 mx-auto text-center" data-aos="fade-up" data-aos-duration="500" data-aos-offset="200">
+            <button type="button" class="btn btn-primary btn-lg">Kirim Pesan</button>
+        </div>
+    </div>
+
+</div>
+
+
+    <footer class="bg-dark pt-5 pb-5 text-white">
+        <div class="container">
+            <div class="row footer-cols">
+                <div class="footer-col col-12 col-sm-12 col-md-6 col-lg-3" data-aos="zoom-in" data-aos-duration="1500">
+                    <h3 class="widget-title">About Us</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab rerum cum eveniet reprehenderit nostrum. Molestias velit aut ea laborum. Officiis molestias explicabo distinctio cum consequuntur labore, repellendus eveniet sunt ab?</p>
+                </div>
+                <div class="footer-col col-12 col-sm-12 col-md-6 col-lg-3" data-aos="zoom-in" data-aos-duration="1500">
+                    <h3 class="widget-title">Site Links</h3>
+                    <ul>
+                        <li><a href="#">Site Link 1</a></li>
+                        <li><a href="#">Site Link 2</a></li>
+                        <li><a href="#">Site Link 3</a></li>
+                        <li><a href="#">Site Link 4</a></li>
+                        <li><a href="#">Site Link 5</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col col-12 col-sm-12 col-md-6 col-lg-3" data-aos="zoom-in" data-aos-duration="1500">
+                    <h3 class="widget-title">External Links</h3>
+                    <ul>
+                        <li><a href="#">External Link 1</a></li>
+                        <li><a href="#">External Link 2</a></li>
+                        <li><a href="#">External Link 3</a></li>
+                        <li><a href="#">External Link 4</a></li>
+                        <li><a href="#">External Link 5</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col col-12 col-sm-12 col-md-6 col-lg-3" data-aos="zoom-in" data-aos-duration="1500">
+                    <h3 class="widget-title">Categories</h3>
+                    <ul>
+                        <li><a href="#">Category 1</a></li>
+                        <li><a href="#">Category 2</a></li>
+                        <li><a href="#">Category 3</a></li>
+                        <li><a href="#">Category 4</a></li>
+                        <li><a href="#">Category 5</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+      <!-- scrolling -->
+  <div class="scrolling-container">
+    <a href="#home"><i class="fas fa-fw fa-arrow-up"></i></a>
+  </div>
+  <!-- end of scrolling -->
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+            once : true,
+        });
+      </script>
+
+</body>
+</html>
